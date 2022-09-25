@@ -58,6 +58,9 @@ Port: 443
 
 
 *Load testing done using Locust. Locust.py has the code to invoke the test scenario for API performance
+
+Command used-
+"locust -f locust.py --host https://flask-ml-service.azurewebsites.net:443 --autostart --users 50 --spawn-rate 5 --run-time 30 --autoquit 5"
 ![15_Locust_tested_from_cloud_shell](https://user-images.githubusercontent.com/108083391/192157019-6e41f51a-e33b-466d-b249-2c50eeb83559.jpg)
 
 > 
